@@ -9,8 +9,9 @@ This project is a marketing analytics case study built in Power BI to analyze th
 - `Marketing Analytics Dashboard.pbix` – Main Power BI report.  
 - `Marketing Analytics Dashboard Snapshot.png` – Screenshot of the final dashboard for quick preview.  
 - `Blog - Marketing Analytics.pptx` – Slide deck / blog visuals explaining the project and insights.  
+- `Marketing-Analytics.xlsx` – Source dataset used to build the Power BI model (ad performance export).
 
-*(If your filenames differ, adjust the names above.)*
+> Open `Marketing-Analytics.xlsx` in Power BI Desktop as the data source if you want to rebuild or extend the report.
 
 ---
 
@@ -18,14 +19,14 @@ This project is a marketing analytics case study built in Power BI to analyze th
 
 The dashboard is built on an ad performance dataset with:
 
-- Campaign information: campaign name, page, day, delivery status  
-- Audience attributes: age (binned), gender, city  
-- Performance metrics: impressions, reach, link clicks, results (conversions)  
-- Cost metrics: amount spent (INR), CTR, CPC, CPM  
+- **Campaign information**: campaign name, page, day, delivery status  
+- **Audience attributes**: age (binned), gender, city  
+- **Performance metrics**: impressions, reach, link clicks, results (conversions)  
+- **Cost metrics**: amount spent (INR), CTR, CPC, CPM  
 
-Each row represents performance for a campaign/ad set and audience slice over a given period.
+Each row represents performance for a campaign/ad set and audience slice over a given period.  
 
-> Note: The raw dataset is not included in this repository to respect data privacy and ownership.
+> If you fork or reuse this project, ensure the dataset is handled responsibly and anonymized where required.
 
 ---
 
@@ -41,7 +42,9 @@ The report is a single-page Power BI dashboard with:
   - Monthly trend of impressions, reach, and results  
   - Overall funnel: impressions → reach → clicks → link clicks → results  
   - Share of results by age group  
-  - Top 10 cities by results
+  - Top 10 cities by results  
+
+These visuals together give a full view of campaign performance, efficiency, funnel drop‑offs, and audience/geography behavior.
 
 ---
 
@@ -50,18 +53,22 @@ The report is a single-page Power BI dashboard with:
 The analysis focuses on practical marketing questions:
 
 - Which campaigns deliver the highest reach and conversions?  
-- Which campaigns are most cost-efficient (lowest cost per result)?  
+- Which campaigns are most cost‑efficient (lowest cost per result)?  
 - Which age groups and cities perform best?  
 - How do impressions, reach, and results trend over time?  
+- Where is spend high but performance relatively weak, indicating optimization opportunities?  
 
 ---
 
 ## How to use the report
 
-1. Open `Marketing Analytics Dashboard.pbix` in **Power BI Desktop**.  
-2. Use the slicers at the top to filter by campaign, page, city, or delivery status.  
-3. Hover over visuals to see detailed tooltips (cost per result, CTR %, etc.).  
-4. Use the visuals to compare campaigns, audiences, and locations and derive optimization ideas.
+1. Clone or download this repository.  
+2. Open `Marketing-Analytics.xlsx` in **Power BI Desktop** (if building from scratch) or open `Marketing Analytics Dashboard.pbix` directly.
+3. If Power BI asks for a file path, relink the PBIX to `Marketing-Analytics.xlsx` in the same folder.  
+4. Use the slicers at the top of the report to filter by campaign, page, city, or delivery status.  
+5. Hover over visuals to see detailed tooltips such as cost per result and CTR %.  
+
+You can modify measures or add new visuals (for example, ROAS or CAC) to extend the analysis.
 
 ---
 
@@ -70,5 +77,10 @@ The analysis focuses on practical marketing questions:
 - Data modeling and DAX measures (CTR %, Avg Cost per Result, CPM, Top Campaign)  
 - Dashboard layout and UX design in Power BI  
 - Marketing analytics concepts: TOFU/BOFU metrics, funnel analysis, audience and geo segmentation
+- Storytelling through KPIs, charts, and a supporting blog/case study
 
-This project is part of a broader analytics portfolio focused on turning marketing data into clear, actionable insights.
+---
+
+## About this project
+
+This project is part of a broader analytics portfolio showcasing the ability to turn marketing data into clear, actionable insights using Power BI and core marketing analytics concepts.
