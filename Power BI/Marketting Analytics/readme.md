@@ -1,6 +1,6 @@
 # Marketing Analytics Dashboard – Power BI
 
-This project is a marketing analytics case study built in Power BI to analyze the performance of paid campaigns promoting data and analytics programs. It turns raw ad export data into an interactive dashboard that helps answer which campaigns, audiences, and cities drive the best results at the lowest cost.[file:1]
+This project is a marketing analytics case study built in Power BI to analyze the performance of paid campaigns promoting data and analytics programs. It turns raw ad export data into an interactive dashboard that helps answer which campaigns, audiences, and cities drive the best results at the lowest cost.
 
 ---
 
@@ -16,7 +16,7 @@ This project is a marketing analytics case study built in Power BI to analyze th
 
 ## Dataset
 
-The dashboard is built on an ad performance dataset with:[file:1]
+The dashboard is built on an ad performance dataset with:
 
 - Campaign information: campaign name, page, day, delivery status  
 - Audience attributes: age (binned), gender, city  
@@ -41,13 +41,13 @@ The report is a single-page Power BI dashboard with:
   - Monthly trend of impressions, reach, and results  
   - Overall funnel: impressions → reach → clicks → link clicks → results  
   - Share of results by age group  
-  - Top 10 cities by results[file:1]
+  - Top 10 cities by results
 
 ---
 
 ## Key questions answered
 
-The analysis focuses on practical marketing questions:[file:21]
+The analysis focuses on practical marketing questions:
 
 - Which campaigns deliver the highest reach and conversions?  
 - Which campaigns are most cost-efficient (lowest cost per result)?  
@@ -69,6 +69,6 @@ The analysis focuses on practical marketing questions:[file:21]
 
 - Data modeling and DAX measures (CTR %, Avg Cost per Result, CPM, Top Campaign)  
 - Dashboard layout and UX design in Power BI  
-- Marketing analytics concepts: TOFU/BOFU metrics, funnel analysis, audience and geo segmentation[file:21]  
+- Marketing analytics concepts: TOFU/BOFU metrics, funnel analysis, audience and geo segmentation
 
 This project is part of a broader analytics portfolio focused on turning marketing data into clear, actionable insights.
